@@ -64,3 +64,30 @@ public class MyCustomLogger extends FilterLogger {
 ```
 
 **Note:** param-name must be *filterLoggerClass*
+
+### Sample Output
+
+```text
+Response: <html><body>Hello World!</body></html>
+Request URI: /myapp/hello
+Request Header: [user-agent, PostmanRuntime/7.29.2]
+Request Header: [accept, */*]
+Request Header: [postman-token, 4d19c129-9071-4747-ab5c-6f7a370ac8e2]
+Request Header: [host, localhost:8080]
+Request Header: [accept-encoding, gzip, deflate, br]
+Request Header: [connection, keep-alive]
+Request Header: [content-type, multipart/form-data; boundary=--------------------------459729101110615036942366]
+Request Header: [content-length, 323]
+Request Parameter: [Name, Alex]
+Request Parameter: [Age, 40]
+Request Body: ----------------------------459729101110615036942366
+Content-Disposition: form-data; name="phone"
+
+867-5309
+----------------------------459729101110615036942366
+Content-Disposition: form-data; name=""; filename="Test.txt"
+Content-Type: text/plain
+
+Test data
+----------------------------459729101110615036942366--
+```
