@@ -11,7 +11,7 @@ A filter used to inspect servlet requests.
 ```xml
 <filter>
 	<filter-name>RequestInspectorFilter</filter-name>
-	<filter-class>ljunggren.io.servletUtils.filter.RequestInspectorFilter</filter-class>
+	<filter-class>io.ljunggren.servletUtils.filter.RequestInspectorFilter</filter-class>
 </filter>
 <filter-mapping>
 	<filter-name>RequestInspectorFilter</filter-name>
@@ -35,7 +35,7 @@ A filter used to inspect servlet responses.
 ```xml
 <filter>
 	<filter-name>ResponseInspectorFilter</filter-name>
-	<filter-class>ljunggren.io.servletUtils.filter.ResponseInspectorFilter</filter-class>
+	<filter-class>io.ljunggren.servletUtils.filter.ResponseInspectorFilter</filter-class>
 </filter>
 <filter-mapping>
 	<filter-name>ResponseInspectorFilter</filter-name>

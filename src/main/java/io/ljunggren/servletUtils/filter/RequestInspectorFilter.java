@@ -1,4 +1,4 @@
-package ljunggren.io.servletUtils.filter;
+package io.ljunggren.servletUtils.filter;
 
 import java.io.IOException;
 import java.util.Collections;
@@ -10,7 +10,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
-import ljunggren.io.servletUtils.RequestInspector;
+import io.ljunggren.servletUtils.RequestInspector;
 
 public class RequestInspectorFilter extends InspectorFilter {
     

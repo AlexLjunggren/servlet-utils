@@ -1,4 +1,4 @@
-package ljunggren.io.servletUtils;
+package io.ljunggren.servletUtils;
 
 public class FilterLogger {
 
