@@ -1,4 +1,4 @@
-package io.ljunggren.servletUtils;
+package io.ljunggren.servlet.utils;
 
 import java.io.IOException;
 import java.io.PrintWriter;
